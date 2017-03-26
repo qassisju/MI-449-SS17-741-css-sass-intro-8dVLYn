@@ -1,0 +1,110 @@
+@import "variables";
+
+h1 {
+  color: $first-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+h2 {
+  color: $second-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+h3 {
+  color: $third-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+h4 {
+  color: $fourth-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+h5 {
+  color: $first-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+h6 {
+  color: $third-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+p {
+  color: $fourth-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+input[type="button"] {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  border-radius: $borderRadius;
+}
+
+input[type="text"] {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  border-radius: $borderRadius;
+}
+
+img {
+  border-radius: $borderRadius;
+}
+
+textarea {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  border-radius: $borderRadius;
+}
+
+#check1 {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+#check2 {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+#radio1 {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+#radio2 {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+img {
+  border-radius: $borderRadius;
+  border-color: lighten($third-color, 20%);
+}
+
+figcaption {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
+
+table {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
+
+thead {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
+
+td {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
