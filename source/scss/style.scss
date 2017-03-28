@@ -2,41 +2,47 @@
 
 h1 {
   color: $first-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 0.25;
   font-family: $fontFamily;
 }
 
 h2 {
   color: $second-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 0.5;
   font-family: $fontFamily;
 }
 
 h3 {
   color: $third-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 2;
   font-family: $fontFamily;
 }
 
 h4 {
   color: $fourth-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 2.25;
   font-family: $fontFamily;
 }
 
 h5 {
   color: $first-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 2.5;
   font-family: $fontFamily;
 }
 
 h6 {
   color: $third-color;
-  font-size: $fontSize;
+  font-size: $fontSize * 4;
   font-family: $fontFamily;
 }
 
 p {
+  color: $fourth-color;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+a {
   color: $fourth-color;
   font-size: $fontSize;
   font-family: $fontFamily;
@@ -97,14 +103,15 @@ figcaption {
 table {
   font-family: $fontFamily;
   font-size: $fontSize;
+  color: blue;
 }
 
 thead {
   font-family: $fontFamily;
-  font-size: $fontSize;
+  font-size: $fontSize * 2;
 }
 
 td {
   font-family: $fontFamily;
-  font-size: $fontSize;
+  font-size: $fontSize * 0.5;
 }
